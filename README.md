@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
 ## Example script inside the notebook
 
-```
+```python
 
 from PIL import Image
 import numpy as np
