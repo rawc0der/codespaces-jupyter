@@ -1,7 +1,51 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# LUT Convertor  ♥️ Codespace Jupyter Notebooks
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+_____________________________
+< LUT FILE CONVERTOR        >
+-----------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+_____________________________
+_____________________________
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+LUT Convertor is a Python tool for extracting and applying Look-Up Tables (LUTs) for color grading, contrast, and brightness adjustments on images. This tool leverages the power of numpy and PIL to process images and transform their appearance based on reference images.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Features
+
+- Extract color grading LUT from a reference image.
+- Extract contrast and brightness LUTs.
+- Apply LUTs to input images.
+- Save transformed images.
+
+## Installation
+
+1. Clone this repository:
+    ```sh
+    cd lut-convertor
+    ```
+
+2. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Place your reference image and input image in the `data/images` directory.
+
+2. Run the script:
+    ```sh
+    python lut_convertor.py
+    ```
+
+3. The transformed images will be saved in the 
+
+output
+
+ directory.
+
+## Example
+
